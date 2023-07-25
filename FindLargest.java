@@ -13,9 +13,9 @@ public class FindLargest{
 
         int sum=a+b+c;
         int max=a;
-
+        float avg=0;
         if(a>b&&a>c){
-            
+
             max=a;
         }else if(b>c){
 
@@ -25,9 +25,13 @@ public class FindLargest{
             max=c;
         }
 
+        avg=(sum/3);
+
         System.out.println("The maximum of three numbers is  "+max);
 
         System.out.println("The sum of three numbers is  "+sum);
+
+        System.out.println("The average of three numbers is  "+avg);
 
     }
 }
